@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style type="text/css">
+    div{
+        height: 100px;
+        width:100px ;
+        background-color: aqua;
+        transition:3s;
+     }
+     #rotate:hover
+     {
+         transform: rotate(90deg);
+         background-color: black;
+     }
+     #translate:hover{
+         transform:translate(100px,100px);
+         background-color: rgb(167, 29, 29);
+     }
+     #rotate3d:hover{
+         transform: rotate3d(1,1,0,180deg);
+         background-color: blue;
+     }
+     
+     #scale:hover{
+         transform: scale(1.5,0.5);
+     }#opacity:hover{
+         opacity:0;
+     }#rgba:hover{background:rgb(128, 0, 81);}#textbox:hover{
+         box-shadow: 0px 0px 10px rgb(128, 0, 13);
+     }
+     
+     
+    
+     
+     </style>
+</head>
+<body>
+     <div id="translate"></div><hr>  <div id="rotate"></div><hr><div id="rotate3d"></div><hr>
+     <div id="scale"></div><hr><div id="opacity"></div><hr>
+    <div id="rgba"></div><hr><div id="textbox"></div>
+    
+   
+    
+</body>
+</html>
